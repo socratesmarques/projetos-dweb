@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Pessoal - Projeto 01</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao minha pagina Pessoal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pagina Principal</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Formulário de Cadastro</h2>
+        <form>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" name="senha" required><br>
+
+            <select name="genero" id="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select><br>   
+            <label>
+                <input type="radio" name="opcao" value="Programacao"> Programacao
+            </label>
+            <label>
+                <input type="radio" name="opcao" value="Design"> Design
+            </label>
+            <label>
+                <input type="radio" name="opcao" value="Musica"> Musica
+            </label><br>
+            <label for="biografia">Biografia:<br><textarea name="biografia" id="biografia" rows="4" cols="50"></textarea></label><br>
+            <input type="submit" id="Enviar">
+            <input type="reset" id="Resetar">
+        </form>
+    </section>
+</body>
+</html>
